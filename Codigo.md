@@ -7,7 +7,7 @@
 - El sistema deberá saber las ganancias de un determinado dia.
 
 
-## Pseudocodigo
+## Pseudocodigo:
 
     class Prenda {
         var property precioBase
@@ -46,3 +46,8 @@
         var property valorFijo 
         override method recargo() =cantCuotas * valorFijo + prendasVendidas.sum({prenda => prenda.precio()*0.1})
     }
+    
+   ## Aclaraciones
+  - Durante la resolucion del ejercicio descarté que los objetos nuevo, promocion y liquidacion sean clases que hereden de Prenda. Ya que si en algun momento un objeto Prenda tiene que cambiar de estado, siendo clases con herencia, deberia eliminar el objeto existente para crear otro. Mientras que si trato a los estados como atributos de Prenda, al tener que cambiar de estado al objeto en cuestion, el objeto conservará su identidad. 
+  
+   
