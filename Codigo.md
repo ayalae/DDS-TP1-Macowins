@@ -49,5 +49,6 @@
     
    ## Aclaraciones
   - Durante la resolucion del ejercicio descarté que los objetos nuevo, promocion y liquidacion sean clases que hereden de Prenda. Ya que si en algun momento un objeto Prenda tiene que cambiar de estado, siendo clases con herencia, deberia eliminar el objeto existente para crear otro. Mientras que si trato a los estados como atributos de Prenda, al tener que cambiar de estado al objeto en cuestion, el objeto conservará su identidad. 
+  - Descarté declarar los "Tipos" de prenda como objetos y los traté como strings, ya que no influye en nada el tipo de prenda(por ahora). Aunque me quedó la duda de si es correcto lo que hice (Me olvidé de escribir la duda en el formulario).
   
    
