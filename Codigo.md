@@ -1,10 +1,10 @@
 # DDS-TP1-Macowins
 
 ## Requerimentos:
--El sistema deberá saber el precio de venta de una prenda, dependiendo su estado.
--El sistema deberá saber el tipo de cada prenda.
--El sistema deberá registrar las ventas.
--El sistema deberá saber las ganancias de un determinado dia.
+- El sistema deberá saber el precio de venta de una prenda, dependiendo su estado.
+- El sistema deberá saber el tipo de cada prenda.
+- El sistema deberá registrar las ventas.
+- El sistema deberá saber las ganancias de un determinado dia.
 
 
 ## Pseudocodigo
